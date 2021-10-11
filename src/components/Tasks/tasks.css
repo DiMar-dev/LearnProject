@@ -1,0 +1,13 @@
+@media screen and (max-width: 480px) {
+    .pending_tasks {
+        overflow-y: scroll;
+        height: 200px;
+    }
+}
+.tastToREnder{
+    background-color: #307309;
+}
+
+.tastToREnder button{
+    background-color: #E64A19;
+}

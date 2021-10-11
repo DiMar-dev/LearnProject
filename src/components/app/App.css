@@ -1,0 +1,52 @@
+.App {
+  text-align: center;
+  font-family: "Helvetica Neue";
+}
+
+/*
+ovde fontot setiraj go za site folderi
+ */
+
+
+main{
+  background-color:#FFF8E1;/*Background: 		#FFF8E1		(Off-White: Improves attention and instills feelings of positivity)*/
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  /*background-color: #282c34;*/
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  /*color: #61dafb;*/
+  color: red;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+nav {
+  background-color: #00ACC1	; /*Navbar: 		#00ACC1		(Blue, Green, grey: - calm and a feeling of well-being)*/
+}
